@@ -1,0 +1,51 @@
+/* Accordion
+================================================== */
+.acc {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.acc__card {
+  margin: 2em;
+  position: relative;
+}
+
+.acc__title {
+  background: #fff;
+  border-bottom: 1px solid #c4c4c4;
+  font-family: "Merriweather", serif;
+  font-size: 2rem;
+  color: #302940;
+  cursor: pointer;
+  display: block;
+  padding: 0.1em 0em 1.3rem 0rem;
+  position: relative;
+  text-align: left;
+}
+.acc__title::after {
+  width: 8px;
+  height: 8px;
+  border-right: 1px solid #4a6e78;
+  border-bottom: 1px solid #4a6e78;
+  position: absolute;
+  right: 10px;
+  content: " ";
+  top: 17px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+
+  /* transition: all 0.2s ease-in-out; */
+}
+.acc__title.active::after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-134deg);
+}
+
+.acc__panel {
+  background: #fff;
+  color: #212121;
+  display: none;
+  margin: 0;
+  padding: 2em;
+  text-align: left;
+}

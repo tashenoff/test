@@ -1,0 +1,82 @@
+.tab {
+  overflow: hidden;
+  width: 100%;
+
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background: var(--accentus-color);
+  float: left;
+  height: 70px;
+  width: calc(100% / 4);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  border-right: 1px solid black;
+
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.tab button:last-child {
+  border: none;
+}
+.tab button:hover {
+  background-color: rgb(29, 36, 106);
+}
+
+.tab button.active {
+  background-color: #fff;
+  color: var(--accentus-color);
+}
+
+.tabcontent {
+  display: none;
+  padding: 2em 2em;
+
+  border-top: none;
+  width: 100%;
+  background-color: #fff;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.course-staff {
+  margin-top: 2rem;
+}
+
+.course-staff p {
+  font-size: 1.2em;
+}
+
+.course-staff h3 {
+  font-size: 1.8em;
+}
+
+.course-staff h1 {
+  font-weight: 900;
+  font-size: 80px;
+  color: #2c3690;
+  font-family: Merriweather;
+  line-height: 0;
+}
+
+.quote {
+  padding-bottom: 1em;
+}
+
+.quote-author {
+  font-weight: bold;
+}

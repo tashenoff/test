@@ -1,0 +1,152 @@
+:root {
+  --main-color: #000000;
+  --accentus-color: #2c3690;
+}
+
+.column {
+  flex: 0 1 auto;
+}
+
+.col_eager {
+  flex: 1 1 auto;
+}
+
+.logo {
+  max-width: 70px;
+  display: inherit;
+  padding-right: 1rem;
+}
+
+body {
+  background-color: var(--main-color);
+}
+
+.home-wrapper {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  color: #fff;
+}
+
+.bg-light {
+  background-color: #fff;
+}
+
+.home_bg {
+  background-image: url("/img/home_bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+footer span {
+  display: block;
+}
+
+footer {
+  min-height: 918px;
+  margin-top: 79px;
+}
+
+.footer-bottom {
+  display: flex;
+}
+
+.footer-policy {
+  margin-bottom: 1rem;
+}
+
+.footer-copyright {
+  margin-top: 1rem;
+}
+
+.footer-bottom-child {
+  width: calc(100% / 5);
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 3rem;
+}
+
+a.footer-number {
+  font-size: 1.5rem !important;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 1rem;
+  color: white !important;
+}
+
+li.footer-adress {
+  display: block;
+  margin-top: 1rem;
+}
+
+.social-links {
+  max-width: 55%;
+}
+
+.social-child {
+  display: inline;
+}
+
+/* .footer-bottom-child:nth-last-child(-n + 2) {
+  padding-top: 2.3rem;
+} */
+
+hr {
+  border: 1px solid #c2c2c6;
+  margin: 1rem 0;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 5rem;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 1rem 3.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #2c3690;
+  font-family: "Montserrat", sans-serif;
+
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: rgb(29, 36, 106);
+}
+
+#text {
+  background-image: url(/img/field.png);
+  max-width: 202px;
+  background-repeat: no-repeat;
+  background-position: center;
+  letter-spacing: 53px;
+}
+
+/*пока что так :(*/
+.margin-top {
+  margin-top: 14rem;
+}
+
+.wrappers-program p::before {
+  content: "";
+  border-top: 1px solid #2c3690;
+  width: 30px;
+  padding-bottom: 1rem;
+  display: block;
+}
